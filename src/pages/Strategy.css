@@ -1,0 +1,48 @@
+.strategy {
+  min-height: calc(100vh - 80px);
+  background: #ffffff;
+  padding: 3rem 1.5rem;
+}
+
+.strategy-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.strategy h1 {
+  font-size: 2.25rem;
+  margin-bottom: 0.5rem;
+  color: #1f2937;
+}
+
+.subtitle {
+  color: #6b7280;
+  margin-bottom: 2rem;
+}
+
+.strategy-sections {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+}
+
+.strategy-card {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.25rem;
+}
+
+.strategy-card h3 {
+  margin: 0 0 0.5rem 0;
+  color: #111827;
+}
+
+.strategy-card p {
+  margin: 0;
+  color: #4b5563;
+  line-height: 1.7;
+}
+
+
+

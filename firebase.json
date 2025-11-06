@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "devudu",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
